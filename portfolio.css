@@ -1,0 +1,103 @@
+header {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+
+
+/* ------- Css début de navigation--------*/
+.nav-item {
+    margin-left: 250px;
+    color: white;
+}
+
+.nav-item:hover {
+    background-color: #ff6159;
+    padding: 1px 2px;
+    cursor: pointer;
+    transition: 0.7s ease;
+}
+
+@media screen and (max-width: 982px) {
+    .nav-item{
+        margin: 0px;
+        padding: 0px;
+        transition: none;
+    }
+   
+}
+/* ------- Css fin de navigation--------*/
+
+
+/* ------- Css Début de La première partie du main--------*/
+.container-main {
+    padding: 100px;
+}
+h1 {
+    size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.spanduh1 {
+    color:#ff6159 ;
+}
+.trait {
+    color: #ff6159;
+}
+/* ------- Css fin de La première partie du main--------*/
+
+
+/* ------- Css Début de La deuxieme partie du main--------*/
+.second-section-slide-images {
+    background-color: black;
+    margin: 10px;
+    padding: 10px;
+}
+.heathy , .banquesend , .Bookpayonline {
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    background-color: black;
+    width: 100%;
+   
+}
+.healthyparty {
+    margin: 20px;
+    font-size: large;
+}
+/* ------- Css Fin de La deuxieme partie du main--------*/
+
+/* ------- Css Début a propos de moi--------*/
+.apropos {
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    background-color: #ff6159;
+    width: 100%;
+}
+.partieapropos {
+    margin: 20px;
+    font-size: large;
+    padding-bottom: 20px;
+}
+/* ------- Css Fin a propos de moi--------*/
+
+
+/* ------- Le footer--------*/
+.footer {
+    background-color: black;
+    height: 150px;
+    display: block;
+}
+.textedefooter {
+    color: azure;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.bi {
+    color: gray;
+    font-size: 3em;
+    margin: 20px;
+}
